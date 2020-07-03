@@ -75,7 +75,7 @@ type Face interface {
 }
 
 // Metrics holds the metrics for a Face. A visual depiction is at
-// https://developer.apple.com/library/mac/documentation/TextFonts/Conceptual/CocoaTextArchitecture/Art/glyph_metrics_2x.png
+// https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/FontHandling/Tasks/GettingFontMetrics.html
 type Metrics struct {
 	// Height is the recommended amount of vertical space between two lines of
 	// text.
