@@ -4,8 +4,8 @@ This repository holds supplementary Go image libraries.
 
 ## Download/Install
 
-The easiest way to install is to run `go get -u golang.org/x/image/...`. You can
-also manually git clone the repository to `$GOPATH/src/golang.org/x/image`.
+The easiest way to install is to run `go get -u github.com/joeblubaugh/image/...`. You can
+also manually git clone the repository to `$GOPATH/src/github.com/joeblubaugh/image`.
 
 ## Report Issues / Send Patches
 

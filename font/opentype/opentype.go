@@ -4,4 +4,4 @@
 
 // Package opentype implements the font.Face interface based on SFNT
 // font file formats.
-package opentype // import "golang.org/x/image/font/opentype"
+package opentype // import "github.com/joeblubaugh/image/font/opentype"

@@ -8,10 +8,10 @@ import (
 	"image"
 	"image/draw"
 
-	"golang.org/x/image/font"
-	"golang.org/x/image/font/sfnt"
-	"golang.org/x/image/math/fixed"
-	"golang.org/x/image/vector"
+	"github.com/joeblubaugh/image/font"
+	"github.com/joeblubaugh/image/font/sfnt"
+	"github.com/joeblubaugh/image/math/fixed"
+	"github.com/joeblubaugh/image/vector"
 )
 
 // FaceOptions describes the possible options given to NewFace when

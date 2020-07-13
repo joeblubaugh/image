@@ -16,10 +16,10 @@
 //
 // Inconsolata's home page is at
 // http://www.levien.com/type/myfonts/inconsolata.html
-package inconsolata // import "golang.org/x/image/font/inconsolata"
+package inconsolata // import "github.com/joeblubaugh/image/font/inconsolata"
 
 import (
-	"golang.org/x/image/font/basicfont"
+	"github.com/joeblubaugh/image/font/basicfont"
 )
 
 // Regular8x16 is a regular weight, 8x16 font face.

@@ -5,13 +5,13 @@
 //go:generate go run gen.go
 
 // Package basicfont provides fixed-size font faces.
-package basicfont // import "golang.org/x/image/font/basicfont"
+package basicfont // import "github.com/joeblubaugh/image/font/basicfont"
 
 import (
 	"image"
 
-	"golang.org/x/image/font"
-	"golang.org/x/image/math/fixed"
+	"github.com/joeblubaugh/image/font"
+	"github.com/joeblubaugh/image/math/fixed"
 )
 
 // Range maps a contiguous range of runes to vertically adjacent sub-images of

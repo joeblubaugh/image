@@ -13,8 +13,8 @@ import (
 	"math"
 	"os"
 
-	"golang.org/x/image/draw"
-	"golang.org/x/image/math/f64"
+	"github.com/joeblubaugh/image/draw"
+	"github.com/joeblubaugh/image/math/f64"
 )
 
 func ExampleDraw() {

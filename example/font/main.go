@@ -4,7 +4,7 @@
 
 // +build example
 //
-// This build tag means that "go install golang.org/x/image/..." doesn't
+// This build tag means that "go install github.com/joeblubaugh/image/..." doesn't
 // install this example program. Use "go run main.go" to run it or "go install
 // -tags=example" to install it.
 
@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/image/font"
-	"golang.org/x/image/font/plan9font"
-	"golang.org/x/image/math/fixed"
+	"github.com/joeblubaugh/image/font"
+	"github.com/joeblubaugh/image/font/plan9font"
+	"github.com/joeblubaugh/image/math/fixed"
 )
 
 var (

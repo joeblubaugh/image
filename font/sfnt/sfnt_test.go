@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/image/font"
-	"golang.org/x/image/font/gofont/gobold"
-	"golang.org/x/image/font/gofont/gomono"
-	"golang.org/x/image/font/gofont/goregular"
-	"golang.org/x/image/math/fixed"
+	"github.com/joeblubaugh/image/font"
+	"github.com/joeblubaugh/image/font/gofont/gobold"
+	"github.com/joeblubaugh/image/font/gofont/gomono"
+	"github.com/joeblubaugh/image/font/gofont/goregular"
+	"github.com/joeblubaugh/image/math/fixed"
 )
 
 func pt(x, y fixed.Int26_6) fixed.Point26_6 {

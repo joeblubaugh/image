@@ -5,7 +5,7 @@
 // Package tiff implements a TIFF image decoder and encoder.
 //
 // The TIFF specification is at http://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf
-package tiff // import "golang.org/x/image/tiff"
+package tiff // import "github.com/joeblubaugh/image/tiff"
 
 import (
 	"compress/zlib"
@@ -17,8 +17,8 @@ import (
 	"io/ioutil"
 	"math"
 
-	"golang.org/x/image/ccitt"
-	"golang.org/x/image/tiff/lzw"
+	"github.com/joeblubaugh/image/ccitt"
+	"github.com/joeblubaugh/image/tiff/lzw"
 )
 
 // A FormatError reports that the input is not a valid TIFF image.

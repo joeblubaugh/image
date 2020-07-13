@@ -16,7 +16,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/image/math/f64"
+	"github.com/joeblubaugh/image/math/f64"
 
 	_ "image/jpeg"
 )
